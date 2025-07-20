@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { assets } from '../assets/assets'
+import '../index.css'
 
 const Promptbox = ({ isloading, onSend, compactMode }) => {
 

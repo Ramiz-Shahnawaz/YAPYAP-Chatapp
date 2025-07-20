@@ -7,6 +7,7 @@ import { collection, query, orderBy, onSnapshot, addDoc, serverTimestamp, update
 import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import Message from '../components/Message';
 import { Airesponse } from '../services/AI';
+import '../index.css'
 
 const Chat = () => {
 
