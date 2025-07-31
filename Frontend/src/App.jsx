@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
 import Login from './pages/Login'
 import Chat from './pages/Chat'
-import ProtectedRoute from './components/ProtectedRoute'
+import ProtectedRoute from './components/Protectedroute.jsx'
 
 
 function App() {
